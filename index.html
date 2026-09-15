@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esbozo de Investigación · Videojuego RTS</title>
+  <link rel="icon" href="img/img1.png" type="image/png">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <div class="barra-left">
+      <img src="img/img1.png" alt="Logo" class="logo">
+      <div class="texto">
+        <strong>Esbozo de Investigación</strong>
+        <span id="titulo-actual" class="subtitulo">Presentación</span>
+      </div>
+    </div>
+    <span class="pista-uso">Clic lateral para navegar · <kbd>←</kbd> <kbd>→</kbd></span>
+  </header>
+
+  <div id="diapositiva" class="diapositiva">
+    <div class="pista pista--izq" aria-hidden="true"><span class="flecha">‹</span></div>
+    <div class="pista pista--der" aria-hidden="true"><span class="flecha">›</span></div>
+    <div id="slider" class="slider"></div>
+  </div>
+
+  <footer class="navegacion">
+    <div id="miniaturas" class="miniaturas"></div>
+    <span id="contador" class="contador">1 / 5</span>
+  </footer>
+  <div class="progreso-wrap"><div id="progreso" class="progreso"></div></div>
+
+  <script src="js/modelo.js"></script>
+  <script src="vistas/v01_portada.js"></script>
+  <script src="vistas/v02_contenido1.js"></script>
+  <script src="vistas/v03_contenido2.js"></script>
+  <script src="vistas/v04_esbozo.js"></script>
+  <script src="vistas/v05_fin.js"></script>
+  <script src="js/controlador.js"></script>
+</body>
+</html>
