@@ -1,8 +1,8 @@
 /* MODELO: datos de la presentación (estructura MVC) */
 (function () {
   window.MODELO = {
-    autor: "Estudiante — Ingeniería de Sistemas",
-    curso: "Actividad 2 · Esbozo de Investigación",
+    autor: "Andia Palomino Rodrigo Inti",
+    curso: "Metodología de la Investigación",
     fecha: "2026",
     diapositivas: [
       { id: "portada", titulo: "Presentación" },
